@@ -1,8 +1,5 @@
-x,y,z = map(int, input().split())
-aux = 0
+a, b, x = map(int, input().split())
 
-for i in range(x, y+1):
-    if (((y-i) % z) == 0):
-        aux += 1
+resultado = ((b // x) - ((a - 1) // x)) 
 
-print(aux)
+print(resultado)
