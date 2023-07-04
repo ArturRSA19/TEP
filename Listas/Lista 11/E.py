@@ -14,6 +14,7 @@ for i in range(t):
     x += aux
 
     print(resultado)
+    #Resetando valores para reinicar o loop com outras entradas, caso existam
     aux = 0
     resultado = 0
 
